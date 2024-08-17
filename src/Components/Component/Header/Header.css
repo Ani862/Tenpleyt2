@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    background-color: white;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+}
+nav > ul >li{
+    transition: 0.5s;
+}
+
+nav > ul >li:hover{
+    color: rgb(50, 20, 184);
+
+}
